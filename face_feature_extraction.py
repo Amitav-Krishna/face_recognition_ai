@@ -29,9 +29,7 @@ def is_match(known_embedding, new_embedding, threshold=0.2):
 # Load images
 train_folders = ['data/person_a', 'data/person_b']
 test_folders = ['test']
-image_paths = get_images_from_folders(train_folders)
-from sklearn.model_selection import train_test_split
-train_image_paths = image_paths
+train_image_paths = get_images_from_folders(train_folders)
 test_image_paths = get_images_from_folders(test_folders)
 
 # Store embeddings of known faces
