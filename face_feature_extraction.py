@@ -27,7 +27,7 @@ def is_match(known_embedding, new_embedding, threshold=0.2):
     return distance < threshold
 
 # Load images
-train_folders = ['data/amitav', 'data/muni']
+train_folders = ['data/person_a', 'data/person_b']
 test_folders = ['test']
 image_paths = get_images_from_folders(train_folders)
 from sklearn.model_selection import train_test_split
