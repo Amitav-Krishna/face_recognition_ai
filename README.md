@@ -16,10 +16,10 @@ Requirements
     numpy
     scipy
 
-Install dependencies with:
+Install dependencies with:```
 bash
 
-pip install deepface numpy scipy
+pip install deepface numpy scipy```
 
 Usage
 
