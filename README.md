@@ -44,11 +44,7 @@ bash
         For each test image, it prints "Match found!" if a match is found among known faces, or "No match." otherwise.
 
 How it works
-
-    The script first gathers all images in the data/person_a and data/person_b directories and extracts their face embeddings.
-    It then gathers all test images in the test/ directory and extracts their embeddings.
-    Each test embedding is compared to all known embeddings using cosine distance (threshold = 0.2 by default).
-    If a match is found, it reports the test image as matched; otherwise, it reports no match.
+The script first gathers all images in the data/person_a and data/person_b directories and extracts their face embeddings. It then gathers all test images in the test/ directory and extracts their embeddings. Each test embedding is compared to all known embeddings using cosine distance (threshold = 0.2 by default). If a match is found, it reports the test image as matched; otherwise, it reports no match.
 
 Customization
 
@@ -61,8 +57,3 @@ Troubleshooting
     If DeepFace cannot detect a face in an image, the script will print a warning and skip that image.
     Ensure images are clear and well-lit for best results.
 
-License
-
-This project is open source and available under the MIT License.
-
-Author: Amitav-Krishna
